@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+    font-family: nunito, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    color:  #EC4067;
+}
+
+.links{
+    text-align: right;
+    padding: 20px 30px;
+    margin: 0 20px;
+    text-decoration-color: black;
+    
+}
+h2{
+    color: #EC4067;
+}
+.btn{
+
+}
+.button1{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.button2{
+    font-size: 18px;
+    background-color: white;
+    color: #EC4067;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+    
+}
+.box{
+    width: 30px;
+    display: inline;
+    
+}
+.box.img{
+    width: 20px;
+}
+
+.orientation{
+
+}
+.button3{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.board{
+
+}
+.button4{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+    float: left;
+}
+.graduation{
+
+}
+.button5{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.TM{
+
+}
+.box
+{
+
+}
+.box.img{
+    width: 5px;
+    height: 10px;
+}
+.button6{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.button7{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.button8{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.button9{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.button10{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.button11{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+.image1{
+
+  width: 300px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+
+    
+}
+h4{
+    color: #EC4067;
+}
+
+
+.button11{
+    font-size: 18px;
+    background-color: #EC4067;
+    color: white;
+    border-radius: 4px;
+    padding: 15px;
+    border-color: #EC4067;
+}
+
+#parent{
+}
+.logo{
+    float: right;
+    width: 50%;
+    position: relative;
+    right: 60px;
+    bottom: 100px;
+    
+}
+.side2{
+      font-size: 20px;
+      float: left;
+      width: 50%;
+      position: relative;
+      left: 0px;
+
+
+}
+#parent2{
+
+}
+.sec3{
+    float: left;
+    width: 50%;
+    left: 60px;
+}
+.orientation{
+    font-size: 20px;
+    float: right;
+    width: 50%;
+    right: 60px;;
+}
+#parent3{
+
+}
+.board{
+    float: left;
+    width: 50%;
+    font-size: 20px;
+
+}
+.img3{
+    float: right;
+    width: 50%;
+    right: 60px;
+}
+#parent4{
+
+}
+.graduation{
+    float: left;
+    width: 50%;
+    font-size: 20px;
+}
+.img4{
+    float: left;
+    width: 50%;
+}
+#TM{
+    display: block;
+
+}
+.rose{
+    position: absolute;
+
+    width: 25%;
+}
+.Albert{
+    width: 25%;
+   position: absolute;
+   left: 25%;
+}
+.Raphael{
+
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    
+}
+.Christine{
+    width: 25%;
+    position: absolute;
+    left: 75%;
+    
+}
+#parent5{
+
+}
+.cool{
+    border-bottom-left-radius: 25%;
+    
+}
+#section{
+    margin-bottom: 20px;
+    display: block;
+}

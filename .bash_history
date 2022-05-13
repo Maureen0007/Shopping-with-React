@@ -352,3 +352,184 @@ git push
 git push origin master
 git push
 git push origin master
+git init
+git remote add origin https://github.com/Maureen0007/vicky.git
+git add .
+git commit -m "initial commit"
+git push origin master
+git add .
+git commit -m "added"
+git push origin master
+git init
+git remote add origin https://github.com/Maureen0007/test3.git
+git add
+git add .
+git commit -m "initial commit"
+git push origin master
+git add .
+git commit -m "added html structure and stylesheet"
+git push origin master
+sudo snap install figma-linux
+sudo snap install vlc
+clear
+.
+snap changes
+snap abort 76
+snap abort 7 6
+snap abort 7
+snap abort 6
+snap install vlc
+sudo apt-get install ubuntu-restricted-extras.
+sudo apt-get install ubuntu-restricted-extras
+sudo apt-get update
+cd Desktop
+ls
+cd IP1
+ls
+cd ..
+cd Desktop
+ls
+cd IP1
+ls
+touch index.html index.css
+code
+cd Desktop
+mkdir trialweb
+cd trialweb
+touch trial.html trial.css
+code
+git init
+git push origin master
+git status
+git add .
+ls
+git status
+git init
+git status
+git add .
+git commit -m "add new pages, modified the css and html files"
+git remote origin https://github.com/Maureen0007/IP1.git
+git remote add origin main https://github.com/Maureen0007/IP1.git
+git remote add [-t <branch>] [-m <master>
+git remote origin https://github.com/Maureen0007/IP1.git
+git push 
+clear
+cd
+clear
+git init
+git push -u origin
+git config --global push.default current
+git add .
+git commit -m "modified css anh html files, add new pages"
+git push origin master
+git init
+git add .
+git commit -m "modified changes in html file"
+git remote add origin https://github.com/Maureen0007/IP1/blob/main/index.html
+git push origin main
+git status
+git push 
+git status
+sudo snap install figma-linux
+snap help refresh
+cd Desktop
+ls
+cd IP1
+ls
+cd Assets
+l
+touch README.md
+code
+cd Desktop
+l
+cd trialweb
+ls
+cd assets
+ls
+cd Desktop
+cd ..
+ls
+cd IP1
+ls
+cd Assets
+ls
+mkdir README.md
+code
+git init
+git add .
+git commit -m "resize images"
+git push
+git add README.md
+git commit -m "added a README file"
+git push
+git add .
+git commit -m "added the <strong> tag to page links"
+git push
+git add .
+git status
+git commit -m "modified html and css files"
+git push
+git status
+git add .
+git commit -m "added a section tag in html"
+git push
+git add .
+git commit -m 
+git commit -m "add a style in css"
+git push
+git init
+git add .
+git commit -m "Add new html code"
+pit push main
+git commit -m "Add new html code"
+git push main
+git push 
+git init
+git add .
+git commit -m "Add new codes to html"
+git init
+git add .
+git commit -m "add image1"
+git push
+git add.
+git add .
+git commit -m "add box model"
+git push
+git add .
+git commit -m "add a parent division"
+git puh
+git push
+git add .
+git commit -m "add alternative message to image"
+git push
+git add .
+git commit -, "add more parent divisions"
+git push
+git add README.md
+git commit -m "add README file"
+git push
+git add .
+git commit -m "resize images
+
+clear
+
+cd
+cd Desktop/IP1/
+CODE .
+code .
+clear
+cd ..
+cd portfolio-website
+ls
+cd Assets
+cd Asset
+ls
+mkdir images
+touch index.html style.css
+code
+code .
+cd Desktop
+mkdir portfolio-website
+cd portfolio-website
+mkdir Asset
+cd Asset
