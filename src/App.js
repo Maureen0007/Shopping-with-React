@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import DataFetching from './Components/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section id="Navbar">
+        <div class="Navlinks">
+            <ul>
+              <li> <a href=".">Home</a> </li>
+              <li> <a href=".">About</a> </li>
+              <li> <a href=".">Gallery</a></li>
+              <li> <a href=".">ContcatUs</a> </li>
+              </ul>
+              </div>
+              <button id="Navbtn">See More!</button>
+              </section>
+
+     <DataFetching />
     </div>
   );
 }
