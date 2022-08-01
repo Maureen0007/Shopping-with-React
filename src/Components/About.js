@@ -1,10 +1,10 @@
 import React from 'react'
-import '../index.css'
+
 
 
 function About() {
   return (
-    <div>
+    <div className='hero'>
        
     </div>
   )

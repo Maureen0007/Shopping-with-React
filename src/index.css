@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: navy;
+  background-color: skyblue;
   
 }
 
@@ -14,17 +14,17 @@ code {
     monospace;
 }
 /* navigation */
-.navigation, Link, h1{
-  margin: 3rem;
+.navbtn{
   display: flex;
   justify-content: space-evenly;
+  margin: 2rem 2rem;
+
 }
-.links{
+.navbtn button{
   color: white;
-  text-decoration: none;
-}
-.links:hover{
   background-color: black;
+  width: 200px;
+  height: 30px;
 }
 
 
@@ -65,14 +65,22 @@ h2{
   display: flex;
   justify-content: space-around;
   max-width: 1200px;
+  max-height: 600px;
   flex-wrap: wrap;
+  
 }
 
 .card{
-  background-color: pink;
+  background-color: white;
   width: 20%;
   margin: 2rem;
   padding: 3rem;
-  box-shadow: 2px 2px 3px white;
+  box-shadow: 2px 2px 10px white;
 
+}
+img{
+  width: 250px;
+  height: 300px;
+  object-fit: contain;
+  
 }

@@ -1,28 +1,24 @@
-import React, {useState}from 'react'
-// import Axios from 'axios'
+// import React,{useEffect, useState}from 'react';
+// import '../index.css'
 
-function DataFetching() {
+// const DataFetching=()=>{
 
-    const [post, setPost]= useState("")
+//     const [post, setPost]=useState([0]);
+//     console.log(post)
+//     useEffect(()=>{
+//         const fakestore =async()=>{
+//             const response= await fetch('https://fakestoreapi.com/products')
+//             const jsonData= await response.json();
+//             setPost(jsonData)
+//         }
+//         fakestore();
+//     },[])
+//     return(
+//         <>
 
-    const getData = () =>{
-        fetch("https://fakestoreapi.com/products")
-        .then((response)=> response.json())
-        .then((data)=>{
-            setPost(data.category + "..." + data.title);
-
-        })
-
-    }
-
-    return (
-        <div>
-            <button onClick={getData}>Get outfit</button>
-            {post}
-        </div>
-
-    )
-
+//         </>
+//     )
+// }
     
-    }
-export default DataFetching;
+    
+// export default DataFetching;

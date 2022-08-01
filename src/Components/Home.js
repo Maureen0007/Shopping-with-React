@@ -5,7 +5,7 @@ function Home() {
       <>
       <section id="home">
           <div class="homeImg">
-              <img src="./Assets/image/fashon1.jpg" alt="fashon model" width="500px"/>
+              <img src="./Assets/image/fashon1.jpg" alt="fashon model" width="700px"/>
               </div>
               <div class="homeDetails">
                   <h1 class="homeHeader">About Us</h1>
