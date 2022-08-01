@@ -1,32 +1,21 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Form extends Component{
-
-  constructor(props){
-    super(props)
-
-    this.state={
-      Username:""
-    }
-  }
-
-  handleUserameChange = (e) => {
-    this.setState({
-      Username: e.target.value
-    })
-  }
-
-
-
-  render(){
-   return(
-    <form>
-      <div>
-        <label>Username:  </label>
-        <input type='text' onChange={this.handleUserameChange} value={this.state.Username}/>
-        </div>
-        </form>
-   )
-  }
+function Home() {
+  return (
+      <>
+      <section id="home">
+          <div class="homeImg">
+              <img src="./Assets/image/fashon1.jpg" alt="fashon model" width="500px"/>
+              </div>
+              <div class="homeDetails">
+                  <h1 class="homeHeader">We care what you wear!</h1>
+                  <hr/>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non temporibus ab repellendus minus expedita vitae hic libero, vel inventore illum modi doloribus doloremque facilis molestias qui quam mollitia dolorum nostrum?</p>
+                  </div>
+                  </section>
+                  </>
+            
+  )
 }
-export default Form
+
+export default Home

@@ -7,6 +7,7 @@ function About() {
     <div className='hero'>
       <div className='hero-text'>
         <h1>Welcome to our online store!</h1>
+        <hr/>
         <p>Feel free to shop around for something that interests your eyes and taste.
           We also have a physical store in the CBD, Nairobi at Moi Avenue and the doors are always open 
           for all our customers.
