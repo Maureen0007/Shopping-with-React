@@ -2,22 +2,22 @@ import React,{useState} from 'react';
 import './index.css';
 // import DataFetching from './Components/DataFetching';
 // import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
-import Home from './Components/Home';
+// import Home from './Components/Home';
 import About from './Components/About';
 import Gallery from './Components/Gallery';
-
+import Form from './Components/Home';
 function App() {
   const [active, setActive] = useState("Home");
 
   return(
     <div className='App'>
       <nav className='navbtn'>
-        <button onClick={()=> setActive("Home")}>Home</button>
+        <button onClick={()=> setActive("Form")}>Home</button>
         <button onClick={()=> setActive("About")}>About</button>
         <button onClick={()=> setActive("Gallery")} >Gallery</button>
       </nav>
       <div>
-        {active === "Home" && <Home title="" />}
+        {active === "Form" && <Form title="" />}
         {active === "About" && <About title="" />}
         {active === "Gallery" && <Gallery title="" />}
       </div>

@@ -14,7 +14,7 @@ import '../index.css'
              },[])
     return(
          <>
-         <h1>Shopping With React</h1>
+         <h1 className='gallery-title'>Shopping With React</h1>
          <div className='container'>
              {post.map((values)=>{
                  return(
