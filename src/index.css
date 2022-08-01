@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: navy;
   
 }
 
@@ -14,52 +14,22 @@ code {
     monospace;
 }
 /* navigation */
-#Navbar{
+.navigation, Link, h1{
+  margin: 3rem;
   display: flex;
-  justify-content: space-between;
-  background-color: grey;
-  border-bottom-right-radius: 5rem;
-  border-top-left-radius: 5rem;
-  margin: 1rem;
- 
-
+  justify-content: space-evenly;
 }
-.logo{
-  margin: 2rem;
-  font-size: 4rem;
-  color: pink;
-
-}
-li{
-  display: inline-block;
-  margin: 2rem;
-}
-
-li a{
-  color: pink;
-  font-size: 1.5rem;
+.links{
+  color: white;
   text-decoration: none;
 }
-li a:hover{
-  background-color: white;
-  width: 3rem;
-  
+.links:hover{
+  background-color: black;
 }
-#Navbtn{
-  height: 30px;
-  border-radius: 3rem;
-  margin: 3rem 4rem;
-  margin-right: 5rem;
-  width: 130px;
-  background-color: pink;
-}
-#Navbtn:hover{
-  background-color: white;
 
-}
 
 /* about */
-#about{
+#home{
   display: flex;
   justify-content: space-between;
   height: 500px;
@@ -68,17 +38,41 @@ li a:hover{
 
 
 }
-.aboutImg, .aboutUs{
+.homeImg, .homeDetails{
   width: 50%;
   margin: 3rem;
 }
-#aboutBtn{
+#homeBtn{
   width: 150px;
   height: 50px;
   background-color: pink;
   margin-top: 2rem;
 }
-.abtheader{
+.homeHeader{
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem; 
+}
+
+/* gallery */
+
+h2{
+  color: palevioletred;
+  text-align: center;
+  font-size: 3rem;
+}
+.container{ 
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: pink;
+  width: 20%;
+  margin: 2rem;
+  padding: 3rem;
+  box-shadow: 2px 2px 3px white;
+
 }

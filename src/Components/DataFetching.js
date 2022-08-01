@@ -1,23 +1,28 @@
-import React, {useState, useEffect}from 'react'
+import React, {useState}from 'react'
+// import Axios from 'axios'
 
 function DataFetching() {
-    const [post, setPost] = useState([])
 
-    useEffect(()=>{
-        fetch('https://fakestoreapi.com/products')
-            .then(res=>res.json())
-            .then(json=>console.log(json))
-            .catch(err =>{
-                console.log(err)
-            })
+    const [post, setPost]= useState("")
 
-    },[])
-    return(
+    const getData = () =>{
+        fetch("https://fakestoreapi.com/products")
+        .then((response)=> response.json())
+        .then((data)=>{
+            setPost(data.category + "..." + data.title);
+
+        })
+
+    }
+
+    return (
         <div>
-
+            <button onClick={getData}>Get outfit</button>
+            {post}
         </div>
-    )
-    
-}
 
-export default DataFetching
+    )
+
+    
+    }
+export default DataFetching;
