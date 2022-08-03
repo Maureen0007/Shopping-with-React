@@ -10,7 +10,7 @@ function Home() {
               <div class="homeDetails">
                   <h1 class="homeHeader">We care what you wear!</h1>
                   <hr/>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non temporibus ab repellendus minus expedita vitae hic libero, vel inventore illum modi doloribus doloremque facilis molestias qui quam mollitia dolorum nostrum?</p>
+                  <p></p>
                   </div>
                   </section>
                   </>

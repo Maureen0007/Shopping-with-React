@@ -25,6 +25,7 @@ import '../index.css'
                              <p>{values.description}</p>
                          </div>
                          <img src={values.image} alt=""  />
+                         <button className='addCart'>Add to cart</button>
                      </div>
                      </>
                  )
