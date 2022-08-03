@@ -112,3 +112,12 @@ img{
   width: 600px;
   margin: 4rem;
 }
+.addCart{
+  align-items: center;
+  background-color: green;
+  width: 200px;
+  height: 50px;
+}
+.addCart:hover{
+  background: white;
+}
